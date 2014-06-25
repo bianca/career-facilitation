@@ -1,0 +1,35 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+// This controller gets the data from the registration form and post it in the database.
+
+class Formcatcher extends CI_Controller 
+{
+
+
+		public function index()
+		{
+            $this->load->view('myform');
+			}
+
+        function save()
+		{
+            //$this->load->model('mysqldb');       
+            if($this->input->post('submit'))
+			   {
+                //$this->mysqldb->insert(); 
+				$data = array('fullname' => $fullname, 
+						  'username' => $username, 
+						  'birthday' => $birthday, 
+						  'email' => $email, 
+						  'phone' => $phone, 
+						  'city' => $city,
+						  'position' => $position);
+						  
+				$str = $this->mysqldb->insert('user', $data);				
+                }
+            //redirect('myform');
+			//$this->input->post('form');
+            }
+        }
+?>
+			

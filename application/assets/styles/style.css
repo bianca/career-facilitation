@@ -1,0 +1,23 @@
+.splash {
+background: #15175b; /* Old browsers */
+background: -moz-linear-gradient(45deg, #15175b 18%, #006891 55%, #05abe0 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(18%,#15175b), color-stop(55%,#006891), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg, #15175b 18%,#006891 55%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg, #15175b 18%,#006891 55%,#05abe0 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg, #15175b 18%,#006891 55%,#05abe0 100%); /* IE10+ */
+background: linear-gradient(45deg, #15175b 18%,#006891 55%,#05abe0 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15175b', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+//background: transparent url('/wp-content/uploads/texture.jpg');
+}
+.outer_splash {
+		background: transparent url('/assets/pictures/t3.png') no-repeat;
+		background-position : left bottom;
+}
+.inner_splash {
+		background: transparent url('/assets/pictures/t2.png') no-repeat;
+		background-position : right top;
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+	padding: 30px;
+}

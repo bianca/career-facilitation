@@ -1,0 +1,30 @@
+
+.logo {
+	//background: url('/assets/pictures/logo.png') no-repeat;
+	//height : 171px;
+	position: absolute;
+	opacity: 0.9;
+  	top: 3em;
+  	left: 2em;
+}
+.splash {
+	height : 171px;
+	background: transparent url('/assets/pictures/cover.jpg') no-repeat;
+}
+.outer_splash {
+	height : 171px;
+	background: #ff0000; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #ff7700 18%, #f7941d 55%, #05abe0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(18%,#ff7700), color-stop(55%,#f7941d), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #ff7700 18%,#f7941d 55%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #ff7700 18%,#f7941d 55%,#05abe0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #ff7700 18%,#f7941d 55%,#05abe0 100%); /* IE10+ */
+	background: linear-gradient(45deg, #ff7700 18%,#f7941d 55%,#05abe0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7700', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	opacity: 0.5;
+}
+.inner_splash {
+	height : 171px;
+	background: transparent url('/assets/pictures/stripe.png');
+	opacity: 1;
+}
